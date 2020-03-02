@@ -1,0 +1,46 @@
+body {
+    font-family: 'Lora';
+    letter-spacing: 2px;
+    line-height: 30px;
+    color: rgb(10, 10, 10);
+}
+
+div.header {
+    background-color:lightgrey;
+}
+
+.navbar-brand {
+    font-weight: bold;
+}
+
+div.middle-section {
+    height: 500px;
+    background-color: white;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px;
+    background-color: lightgrey;
+    
+}
+
+.footer .sub-heading {
+    font-weight: bold;
+}
+
+.footer .timing-heading {
+    color: #098a8a;
+}
+
+p.timing {
+    text-align: left;
+}
+
+.copyright {
+    padding-top: 30px;
+    color: #098a8a;
+    font-size:14px;
+    letter-spacing: 1px;  
+    font-family: 'Montserrat', sans-serif;
+}
