@@ -71,7 +71,7 @@ div.middle-section {
 .about-us {
     padding: 50px;
     text-align: center;
-    background-color: rgb(184, 204, 202);
+    background-color: lightgrey;
 }
 
 .products {
@@ -92,6 +92,7 @@ h2 {
 .promotions {
     padding: 50px;
     text-align: center;
+    background-color: lightgrey;
 }
 
 .promotions p, .promotions h4 {
@@ -108,10 +109,23 @@ h2 {
     height: auto;
 }
 
+.promotions .item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 25px
+}
+
+.second-item {
+    margin-bottom: 30px;
+}
+
 @media only screen and (max-width: 970px) {
-    .footer .item {
+    .footer .item, .promotions .item {
         margin-top: 20px;
         margin-bottom: 20px;
+    }
+    .second-item {
+        margin-bottom: 0px;
     }
 }
 
