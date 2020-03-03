@@ -67,3 +67,13 @@ p.timing {
     text-align: center;
     background-color: rgb(184, 204, 202);
 }
+
+.products {
+    padding: 50px;
+    text-align: center;
+}
+
+.products img {
+    border: 1px solid lightgray;
+    padding: 3px;
+}
