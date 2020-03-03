@@ -6,7 +6,7 @@ body {
 }
 
 div.header {
-    background-color:lightgrey;
+    background-color: lightgrey;
 }
 
 .navbar-brand {
@@ -22,26 +22,27 @@ div.middle-section {
     text-align: center;
     padding: 30px;
     background-color: lightgrey;
-    
+    word-wrap: break-word;
 }
 
 .footer .sub-heading {
     font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .footer .timing-heading {
     color: #276868;
 }
 
-p.timing {
+/* p.timing {
     text-align: left;
-}
+} */
 
 .copyright {
     padding-top: 30px;
     color: #276868;
-    font-size:14px;
-    letter-spacing: 1px;  
+    font-size: 14px;
+    letter-spacing: 1px;
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -57,6 +58,7 @@ p.timing {
     text-align: center;
     margin: 100px;
 }
+
 .benefits img {
     width: 100px;
     height: 100px;
@@ -82,3 +84,35 @@ h2 {
     margin-bottom: 50px;
     font-weight: bold;
 }
+
+.promotions {
+    padding: 50px;
+    text-align: center;
+}
+
+.promotions p, .promotions h4 {
+    text-align: left;
+    letter-spacing: 1px;
+}
+
+.second-news {
+    border-bottom: 3px solid grey;
+}
+
+.responsive {
+    max-width: 100%;
+    height: auto;
+}
+
+@media only screen and (max-width: 970px) {
+    .footer .item {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+}
+
+/* @media (max-width: 970) {
+    .footer .item {
+        margin: 50px;
+    }
+} */
