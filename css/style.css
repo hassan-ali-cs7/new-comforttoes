@@ -52,3 +52,12 @@ p.timing {
 .visit-us {
     margin: 50px;
 }
+
+.benefits {
+    text-align: center;
+    margin: 100px;
+}
+.benefits img {
+    width: 100px;
+    height: 100px;
+}
