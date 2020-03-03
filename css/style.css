@@ -30,7 +30,7 @@ div.middle-section {
 }
 
 .footer .timing-heading {
-    color: #098a8a;
+    color: #276868;
 }
 
 p.timing {
@@ -39,8 +39,16 @@ p.timing {
 
 .copyright {
     padding-top: 30px;
-    color: #098a8a;
+    color: #276868;
     font-size:14px;
     letter-spacing: 1px;  
     font-family: 'Montserrat', sans-serif;
+}
+
+.carousel-item {
+    height: 480;
+}
+
+.visit-us {
+    margin: 50px;
 }
