@@ -3,10 +3,14 @@ html {
 }
 
 body {
-    font-family: 'Lora';
+    font-family: 'Lora', sans-serif;
     letter-spacing: 2px;
     line-height: 30px;
     color: rgb(10, 10, 10);
+}
+
+.nav-item {
+    font-weight: bold;
 }
 
 div.header {
@@ -22,19 +26,17 @@ div.middle-section {
     background-color: white;
 }
 
-.footer {
+.contact-us {
     text-align: center;
-    padding: 30px;
-    background-color: lightgrey;
     word-wrap: break-word;
 }
 
-.footer .sub-heading {
+.contact-us .sub-heading {
     font-weight: bold;
     font-family: 'Montserrat', sans-serif;
 }
 
-.footer .timing-heading {
+.contact-us .timing-heading {
     color: #276868;
 }
 
@@ -119,18 +121,28 @@ h2 {
     margin-bottom: 30px;
 }
 
+.footer {
+    background-color: lightgrey;
+    height: 80px;
+}
+
+.visit-our-store {
+    font-family: 'Great Vibes', sans-serif;
+    color: #276868;
+    font-size: 65px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 @media only screen and (max-width: 970px) {
-    .footer .item, .promotions .item {
+    .contact-us .item, .promotions .item {
         margin-top: 20px;
         margin-bottom: 20px;
     }
     .second-item {
         margin-bottom: 0px;
     }
-}
 
-/* @media (max-width: 970) {
-    .footer .item {
-        margin: 50px;
+    .visit-our-store {
+        display: block;
     }
-} */
+}
