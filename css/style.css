@@ -77,3 +77,8 @@ p.timing {
     border: 1px solid lightgray;
     padding: 3px;
 }
+
+h2 {
+    margin-bottom: 50px;
+    font-weight: bold;
+}
